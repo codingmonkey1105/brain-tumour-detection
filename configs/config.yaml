@@ -1,0 +1,15 @@
+seed: 42
+img_size: [224, 224]
+mlp_img_size: [64, 64]
+batch_size: 32
+epochs: 20
+val_size: 0.2
+learning_rate: 1.0e-4
+dropout: 0.5
+augmentation:
+  rotation_range: 15
+  width_shift_range: 0.1
+  height_shift_range: 0.1
+  zoom_range: 0.1
+  horizontal_flip: true
+seeds_for_final_runs: [0, 1, 2]

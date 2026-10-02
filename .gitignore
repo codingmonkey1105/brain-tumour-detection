@@ -1,0 +1,11 @@
+# dataset and generated manifests are not versioned (165 MB, regenerable)
+dataset/
+data/*.csv
+*.h5
+*.keras
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+# keep metrics JSON, ignore bulky artefacts
+results/*.png

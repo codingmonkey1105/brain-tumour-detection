@@ -1,0 +1,7 @@
+tensorflow==2.15.*
+numpy<2
+pandas
+scikit-learn
+pillow
+matplotlib
+seaborn
